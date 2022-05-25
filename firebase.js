@@ -5,7 +5,13 @@ import 'firebase/compat/firestore';
 
 
 const firebaseConfig = {
-// your key here
+  apiKey: "AIzaSyDjZncZlyFI9fTwRC32vv-dpzs_dSanrpU",
+  authDomain: "petfeeder-42b6d.firebaseapp.com",
+  databaseURL: "https://petfeeder-42b6d-default-rtdb.firebaseio.com",
+  projectId: "petfeeder-42b6d",
+  storageBucket: "petfeeder-42b6d.appspot.com",
+  messagingSenderId: "618221925081",
+  appId: "1:618221925081:web:174fe1da82d1dd98cb84c8"
 };
 
 let app;
